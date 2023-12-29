@@ -6,7 +6,7 @@ const Header = ({val}) => {
     <div>
        <nav className='navbar navbar-light bg-dark'>
             <a>Restaurant</a>
-<Link to="/Order"><button className='btn btn-primary'>Orders <span className='badge bg-danger'>{val.length}</span></button></Link>
+<Link to="/Order"><button className='btn btn-primary'>Orderss<span className='badge bg-danger'>{val.length}</span></button></Link>
         </nav>
     </div>
   )
